@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://kit.fontawesome.com/e2fb48ab3b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>PERIZINAN ONLINE - PTSP BPBATAM</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.css" />
+    <!-- Dashboard CSS -->
+    <link rel="stylesheet" href="assets/css/dashboard.css" />
+    <!-- FontAwesome CSS-->
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Icon LineAwesome CSS-->
+    <link
+      rel="stylesheet"
+      href="assets/vendors/lineawesome/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Topbar -->
+    <div class="topbar transition">
+      <div class="bars">
+        <button type="button" class="btn transition" id="sidebar-toggle">
+          <i class="las la-bars"></i>
+        </button>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="" class="transition">
+              <i class="las la-bell"></i>
+              <span class="badge badge-danger notif">5</span>
+            </a>
+          </li>
+
+          <li>
+            <div class="dropdown">
+              <div
+                class="dropdown-toggle"
+                id="dropdownProfile"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img src="assets/img/avatar.png" alt="Profile" />
+              </div>
+              <div class="dropdown-menu" aria-labelledby="dropdownProfile">
+                <a class="dropdown-item" href="">
+                  <i class="las la-key mr-2"></i> Ubah Password
+                </a>
+
+                <a class="dropdown-item" href="">
+                  <i class="las la-user mr-2"></i> Ubah Profil
+                </a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="index.html">
+                  <i class="las la-sign-out-alt mr-2"></i> Log Out
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Sidebar-->
+    <div class="sidebar transition overlay-scrollbars">
+      <div class="logo">
+        <h2 style="font-weight: 700" class="mb-0">
+          BSW
+        </h2>
+      </div>
+
+      <div class="sidebar-items">
+        <div class="accordion" id="sidebar-items">
+          <ul>
+            <p class="menu">Menu</p>
+
+            <li>
+              <a href="" class="items">
+                <i class="fa fa-chart-bar"></i>
+                <span>Dashoard</span>
+              </a>
+            </li>
+
+            <li id="headingOne">
+              <a
+                href=""
+                class="submenu-items"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <i class="fas la-edit"></i>
+                <span>Buat Permohonan</span>
+              </a>
+            </li>
+            <div
+              id="collapseOne"
+              class="collapse submenu"
+              aria-labelledby="headingOne"
+              data-parent="#sidebar-items"
+            >
+            </div>
+
+            <li>
+              <a href="" class="items">
+                <i class="fas la-tasks"></i>
+                <span>Permohonan Saya</span>
+              </a>
+            </li>
+
+            <li id="headingTwo">
+              <a
+                href=""
+                class="submenu-items"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="true"
+                aria-controls="collapseTwo"
+              >
+                <i class="fas la-binoculars"></i>
+                <span>Tracking Permohonan Saya</span>
+              </a>
+            </li>
+            <div
+              id="collapseTwo"
+              class="collapse submenu"
+              aria-labelledby="headingTwo"
+              data-parent="#sidebar-items"
+            >
+            </div>
+            <li id="headingThree">
+              <a
+                href=""
+                class="submenu-items"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="true"
+                aria-controls="collapseThree"
+              >
+                <i class="fas la-edit"></i>
+                <span>Usulan Titik Reklame</span>
+              </a>
+            </li>
+            <div
+              id="collapseThree"
+              class="collapse submenu"
+              aria-labelledby="headingThree"
+              data-parent="#sidebar-items"
+            >
+            </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-overlay"></div>
+
+    <!--Dashboard Content-->
+    <div class="content transition">
+      <div class="container-fluid dashboard">
+        <h3>Selamat Datang,</h3>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i class="las la-signal icon-home bg-warning text-light"></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Jumlah Permohonan</p>
+                    <h5>1</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i
+                      class="las la-random icon-home bg-success text-light"
+                    ></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Permohonan Diverifikasi</p>
+                    <h5>1</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i
+                      class="la la-refresh icon-home bg-info text-light"
+                    ></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Permohonan Diproses</p>
+                    <h5>0</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i
+                      class="las la-tasks icon-home bg-primary text-light"
+                    ></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Permohonan Selesai</p>
+                    <h5>0</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i
+                      class="las la-inbox icon-home bg-success text-light"
+                    ></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Draft</p>
+                    <h5>0</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i
+                      class="las la-edit icon-home bg-danger text-light"
+                    ></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Permohonan Direvisi</p>
+                    <h5>1</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-4 d-flex align-items-center">
+                    <i
+                      class="la la-warning icon-home bg-warning text-light"
+                    ></i>
+                  </div>
+                  <div class="col-8">
+                    <p>Permohonan Ditolak</p>
+                    <h5>0</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Library Javascipt-->
+    <script src="assets/vendors/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
