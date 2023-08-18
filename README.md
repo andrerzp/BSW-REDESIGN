@@ -49,4 +49,4 @@ Git Push
 ### Contributors
 
 - [Lewin Panjaitan](https://github.com/lewinp)
-- [Andre Rizky Prasety](https://github.com/andrerzp)
+- [Andre Rizky Prasetya](https://github.com/andrerzp)
