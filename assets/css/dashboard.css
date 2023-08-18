@@ -30,14 +30,6 @@ a {
   color: #3b82f6;
 }
 
-a:hover {
-  color: #1e3a8a;
-}
-
-table thead {
-  color: #5a5c69 !important;
-}
-
 /** 3.1 Navbar **/
 .topbar {
   position: fixed;
